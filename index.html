@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo uso del elemento div y del atributom id</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+        a:link, a:visited, a:hover, a:active {
+            color:#0f0;
+            font-size:16px;
+        }
+        body {
+            background: #eee;
+            font-family:verdana;
+        }
+        h1 {
+            color:#c0c;
+            font-size:24px;
+        }
+        p {
+            font-size:16px;
+        }
+        ul {
+            list-style-type:none;
+        }
+        #Cabecera {
+            color:#ff9;
+            background-color:#000;
+            padding:10px;
+        }
+        #contenedor {
+            margin:0 auto;
+            width: 800px;
+        }
+        #contenido {
+            background-color:#00FFFF;
+            float: left;
+            height:860px;
+            padding:10px;
+            width:560px;
+        }
+        #menu {
+            background-color: #0000FF;
+            float: left;
+            height:840px;
+            padding:20px;
+            width:180px;
+        }
+        #pie {
+            background-color: #808080;
+            clear: both;
+            color:#800000;
+            padding:10px;
+            text-align: center;
+        }
+        table, td {
+            border:1px solid black;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="Cabecera">
+            <center>
+            <p>♠LOS MEJORES MOMENTOS DE TU VIDA.♠</p>
+            </center>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="https://music.youtube.com/">Youtube Music</a></li>
+				<img src="./ft/you.jpg" width="200px">
+                <br>
+                <li><a href="https://www.spotify.com/">Spotify</a></li>
+								<img src="./ft/spt.jpg" width="200px">
+                <br>
+                <li><a href="https://soundcloud.com/">Soundcloud.</a></li>
+								<img src="./ft/son.jpg" width="200px">
+                <br>
+            </ul>
+        </div>
+        <di id="contenido">
+            <form action="procesar-datos.php" method="post">
+                <label for="nombre_usuario">Usuario: </label>
+                <input type="text" name="Usuario" id="nombre_usuari">
+                <br><br>
+                <label for="clave_usuario">Contraseña: </label>
+                <input type="password" name="clave" id="clave_usuario">
+                <br><br>
+                <input type="submit" value="Enviar datos">
+            </form>
+            </input>
+            </form>
+            <h1>ESCUCHAR LA MEJOR MUSICA ONLINE GRATIS, NUEVA MUSICA 2023</h1>
+            <br>
+            <p>pura Juerga es una página de Música 2023 
+            donde podemos Escuchar Música Online Y canciones 
+            en línea además de poder Escuchar Música Gratis desde 
+            tu celular o desde tu pc en una buena calidad y disfrutar 
+            de toda tu música favorita. Puedes escuchar canciones 
+            online: Musica HD, Música MP3, PuraJuerga, GooDisco, MiMP3s, SiMP3, MP3Flow, Goomusica, FoxMusica, MusicasVip, 
+            nuestra página también ofrece lo mejor de la Buena Musica online.
+
+            <br>
+            <ul>
+                <b>
+                <li>Pop.</li>
+                <li>Reggaeton.</li>
+                <li>Bachata.</li>
+                <li>Cumbia.</li>
+                <li>Electronica.</li>
+            </b>
+            </ul>
+            </p>
+            <img src="./ft/bart.gif" width="265px">
+            <br>
+            <table>
+                <caption><b>Genero de musica mas escuchado en la actuliadad.</b></caption>
+                <tr>
+                    <td>genero musical</td>
+                    <td>los mas escuchados.</td>
+                </tr>
+                <tr>
+                    <td>Pop</td>
+                    <td>46.6%</td>
+                </tr>
+                <tr>
+                    <td>Clásica</td>
+                    <td>19.53%</td>
+                </tr>
+                <tr>
+                    <td>Cumbia</td>
+                    <td>17.9%</td>
+                </tr>
+                <tr>
+                    <td>Reggaetón</td>
+                    <td>15.5%</td>
+                </tr>
+                <tr>
+                    <td>Rock ingles</td>
+                    <td>10.93%</td>
+                </tr>
+                <tr>
+                    <td>Bossa nova</td>
+                    <td>2.34%</td>
+                </tr>
+            </table>
+        </div>
+        <div id="pie">
+            <marquee>good music does not age.</marquee>
+        </div>
+    </div>
+</body>
+</html>
